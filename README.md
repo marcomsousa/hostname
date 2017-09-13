@@ -7,10 +7,11 @@ Run the Docker container using the command shown below.
 ```bash
 $ docker run -d --name hostname -p 5000:5000 marcomsousa/hostname
 ```
-Run the Docker container Swarm and replicas
+
+Run in a Docker Swarm Cluster with replicas
 
 ```bash
-docker service create \
+$ docker service create \
 --name sqlmap \
 --publish 5000:5000 \
 --replicas 5 \
