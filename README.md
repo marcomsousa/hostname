@@ -12,7 +12,7 @@ Run in a Docker Swarm Cluster with replicas
 
 ```bash
 $ docker service create \
---name sqlmap \
+--name hostname \
 --publish 5000:5000 \
 --replicas 5 \
 marcomsousa/hostname
