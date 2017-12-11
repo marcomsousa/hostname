@@ -2,6 +2,8 @@
 
 This is a minimalist flask app that returns the container ID via HTTP GET.
 
+Based on [Alpine Linux](https://alpinelinux.org/), so the image is quite small.
+
 Run the Docker container using the command shown below.
 
 ```bash
