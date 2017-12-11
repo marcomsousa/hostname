@@ -1,4 +1,5 @@
 FROM python:alpine
+MAINTAINER Marco Sousa <marcomsousa+docker @ gmail.com>
 
 RUN pip install flask
 
